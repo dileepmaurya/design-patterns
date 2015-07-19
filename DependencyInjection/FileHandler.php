@@ -1,7 +1,7 @@
 <?php
-namespace App;
+namespace App\DependencyInjection;
 
-use App\File\FileInterface;
+use App\DependencyInjection\File\FileInterface;
 
 class FileHandler
 {

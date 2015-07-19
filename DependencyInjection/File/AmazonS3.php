@@ -1,6 +1,6 @@
 <?php
 
-namespace App\File;
+namespace App\DependencyInjection\File;
 
 /**
 * Amazons3 php file upload

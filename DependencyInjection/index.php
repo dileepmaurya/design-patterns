@@ -2,11 +2,11 @@
 error_reporting(E_ALL);
 ini_set("display_errors",1);
 
-$loader = require "vendor/autoload.php";
+$loader = require "../vendor/autoload.php";
 
-use App\FileHandler;
-use App\File\FileUpload;
-use App\File\AmazonS3;
+use App\DependencyInjection\FileHandler;
+use App\DependencyInjection\File\FileUpload;
+use App\DependencyInjection\File\AmazonS3;
 
 $h = new FileUpload();
 $f = new FileHandler($h);
